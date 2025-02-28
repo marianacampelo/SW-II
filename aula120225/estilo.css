@@ -9,8 +9,9 @@
     color: black;
     background: linear-gradient(to right, palevioletred, purple);
     border-radius: 10px;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 160px;
+    
 }
 
 a{
@@ -18,11 +19,65 @@ a{
     color: black;
 }
 
-.receitas{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 10rem;
-    height: 100%;
+   
+
+body{
+    background-color: plum;
+    font-family: var(--font-dm-sans);
 }
 
+button{
+    text-align: center;
+
+}
+h1{ 
+
+    font-size: 60px;
+    background-color:rgb(204, 114, 144);
+    color:#FAFFFA;
+    text-align: center;
+    font-family: "Open Sans",sans-serif; 
+
+
+}
+
+div{
+    border: 50px;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+ margin: 140px;
+ 
+}
+
+p{
+    font-size: 20px;
+    color:#000000;
+    text-align: justify;
+    font-family: "Open Sans",sans-serif; 
+
+}
+
+h2{
+    font-size: 40px;
+    color:#8f3f3f;
+    text-align: justify;
+    font-family: "Open Sans",sans-serif;  
+    background-color:rgb(204, 114, 144);
+}
+.botao1{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, palevioletred, rgb(221, 145, 221));
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.bolo{
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
